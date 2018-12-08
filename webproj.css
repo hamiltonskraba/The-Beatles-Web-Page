@@ -1,0 +1,223 @@
+body {
+	font-family: 'Carter One', cursive;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+    border-radius: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 1px solid slategray;
+  border-radius: 10px;
+}
+/*div {
+	border: 1px solid black;
+}*/
+
+select {
+	float: left;
+}
+
+h1 {
+	text-align: center;
+}
+
+div::-webkit-scrollbar {
+    width: 1em;
+    border-radius: 10px;
+}
+ 
+div::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+ 
+div::-webkit-scrollbar-thumb {
+  background-color: black;
+  border: 4px solid black;
+}
+
+ul li a {
+	color: white;
+	background-color: black;
+	border-radius: 10px 20px 10px;
+	margin: 3px;
+    border: 3px solid black;
+    font-family: 'Carter One', cursive;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+select {
+	width: 150px;
+	text-align: center;
+}
+
+div a {
+	font-family: 'Carter One', cursive;
+	font-size: 28px;
+	color: black;
+}
+
+div a:hover {
+	color: red;
+}
+
+p::first-letter {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+.form-container{
+	font-weight: bold;
+	font-family: 'Carter One', cursive;
+	color: black;
+	letter-spacing: 0.5px;
+	width:50%;
+	float: left;
+}
+
+.results-container{
+	font-weight: bold;
+	font-family: 'Carter One', cursive;
+	color: black;
+	letter-spacing: 1.0px;
+	width: 100%;
+	display: inline-block;
+	font-size:20px;
+	margin-top: 75px;
+}
+
+.band-head {
+	font-weight: bold;
+	font-family: 'Carter One', cursive;
+	color: black;
+	letter-spacing: 0.5px;
+	text-align: center;	
+}
+
+.band {
+	border: 6px solid black;
+	border-radius: 10px 20px 10px;
+	width: 75%;
+	height: 200px;
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+.band-container {
+	padding: 4px;
+	margin-right: 6px;
+	float: left;
+	width: 45%
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: black;
+    background-color: white;
+	border: 3px solid black;        
+}
+
+.navbar {
+	min-height: 100px;
+}
+
+.center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 58%;
+}
+
+.center-main {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+ 	min-height:450px;
+ 	min-width: 600px;
+ 	border: 3px solid black;
+}
+
+.container {
+	display: block;
+}
+
+.header {
+	font-size: 130px;
+	font-weight: bold;
+	font-family: 'Carter One', cursive;
+	color: black;
+	margin-top: 65px;
+	margin-bottom: 30px;
+}
+
+.link-box {
+	float: left;
+	width: 65%;
+	text-align: center;
+	color: black;
+	padding-top: 35px;
+}
+
+.store {
+	border: 6px solid black;
+	border-radius: 10px 20px 10px;
+	width: 58%;
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+.store-logo {
+	width: 30%;
+	height: 100%;
+	border-radius: 20px;
+	float: left;
+}
+
+.form-button {
+	color: white;
+	background-color: black;
+	border-radius: 10px 20px 10px;
+    border: 3px solid black;
+    font-family: 'Carter One', cursive;
+    letter-spacing: 0.5px;
+    margin-left: 15px;
+}
+
+#download {
+	text-align: center;
+}
+
+#download-link {
+	color: red;
+}
+
+#disclaimer {
+	color: red;
+}
+
+.sources {
+	text-align: center;
+	font-family: 'Carter One', cursive;
+}
+
+#source-links {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	width: 600px;
+	font-size: 12px;
+}
+
+
+

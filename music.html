@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<title>The Beatles HQ</title>
+	<link rel="stylesheet" type="text/css" href="webproj.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+
+</head>
+<body>
+	<!--nav bar-->
+<nav class="navbar nav-default">
+	<div class="container">
+		<div class="collapse navbar-collapse" id="bs-nav-demo">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="band.html">Band</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="store.html">Store</a></li>	
+				<li><a href="sources.html">Sources</a></li>											
+			</ul>
+		</div>
+	</div>	
+</nav>
+
+<h1 class="center header">The Music</h1>
+
+<div class="form-container">
+	<form>
+		<div class="center" style="padding-left: 120px">
+			<h2>Choose an album:</h2>
+	
+			<select name="album" id="albumName">
+				<option value="help">Help</option>
+				<option value="rubsoul">Rubber Soul</option>
+				<option value="rev">Revolver</option>
+				<option value="abbyrd">Abbey Road</option>
+			</select>
+			<button id="album-submit"  type="button" class="form-button">Submit</button>
+		</div>
+	</form>
+</div>
+
+<div class="form-container">
+	<form>
+		<div class="center">
+			<h2>Choose an author:</h2>
+
+			<select name="author" id="authorName">
+				<option value="none">All</option>
+				<option value="john">John</option>
+				<option value="paul">Paul</option>
+				<option value="george">George</option>
+				<option value="ringo">Ringo</option>			
+			</select>
+			<button id="author-submit"  type="button" class="form-button">Sort!</button>
+		</div>	
+	</form>
+</div>
+
+<br><br><br>
+
+<div class="results-container center">
+	<ul class="center">
+		<span id="albumYear"></span>
+		<span id="results"></span>
+	</ul>
+</div>
+
+<br><br><br>
+
+<div id="download">
+	<a href="songinfo.pdf" id="download-link" target="_blank">Download all song info!</a>
+</div>
+
+<br><br>
+	<!--scripts -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="webproj.js"></script>
+</body>
+</html>
